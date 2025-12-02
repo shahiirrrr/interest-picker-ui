@@ -159,7 +159,7 @@ export default function InterestSelection() {
               aria-expanded={isEmojiOpen}
               aria-haspopup="true"
               aria-label="Toggle emoji picker"
-              className="flex items-center justify-between gap-2 px-4 py-3 border border-[#EDF1F3] border-opacity-30 bg-transparent hover:bg-yellow-400/10 transition-all text-lg md:text-base"
+              className="flex items-center justify-between gap-2 px-4 py-3 border border-[#EDF1F3] border-opacity-30 bg-transparent hover:bg-yellow-400/10 transition-all text-lg md:text-base max-[360px]:w-full"
               style={{
                 width: '77px',
                 height: '42px',
@@ -281,7 +281,7 @@ export default function InterestSelection() {
               placeholder="Enter your interest"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="px-4 border border-[#EDF1F3] border-opacity-30 bg-transparent text-white focus:outline-none focus:border-opacity-60 transition-all w-[263px] h-[42px] rounded-lg"
+              className="px-4 border border-[#EDF1F3] border-opacity-30 bg-transparent text-white focus:outline-none focus:border-opacity-60 transition-all w-[263px] h-[42px] rounded-lg max-[360px]:w-full"
               style={{
                 fontFamily: 'Open Sans',
                 fontWeight: 400,
